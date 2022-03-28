@@ -10,7 +10,7 @@ Questa volta però ogni todo sarà un oggetto, formato da due proprietà:
 const app = new Vue({
   el: "#app",
   data: {
-    toDoItem: [
+    toDoItems: [
       { text: "Fare colazione", done: true },
 
       { text: "Seguire la lezione", done: true },

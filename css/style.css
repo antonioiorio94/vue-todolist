@@ -2,4 +2,25 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+h1 {
+  border-bottom: 2px solid burlywood;
+  padding-bottom: 5px;
+  font-style: italic;
+  color: burlywood;
+}
+
+.container {
+  max-width: 30rem;
+  margin: 2rem auto;
+  padding: 2rem;
+  box-shadow: 1rem 1rem 3rem rgb(182, 182, 182);
+  border-radius: 10px;
+}
+
+.container ul li {
+  list-style-type: none;
+  margin: 1rem 0 1rem 0;
 }
