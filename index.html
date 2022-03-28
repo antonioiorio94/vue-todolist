@@ -13,9 +13,7 @@
       <div class="container">
         <h1>To-Do List</h1>
         <ul>
-          <li>
-            <div></div>
-          </li>
+          <li v-for="(item,index) in toDoItem">{{toDoItem[index].text}}</li>
         </ul>
       </div>
     </div>
