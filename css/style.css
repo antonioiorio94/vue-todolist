@@ -23,4 +23,6 @@ h1 {
 .container ul li {
   list-style-type: none;
   margin: 1rem 0 1rem 0;
+  display: flex;
+  justify-content: space-between;
 }
