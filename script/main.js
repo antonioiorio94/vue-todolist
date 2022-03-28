@@ -22,6 +22,7 @@ const app = new Vue({
       { text: "Preparare il pranzo", done: false },
     ],
     itemsDone: [],
+    newTask: "",
   },
   // MILESTONE 2
   //Visualizzare a fianco ad ogni item ha una "x": cliccando su di essa, il todo viene rimosso dalla lista.
@@ -30,6 +31,11 @@ const app = new Vue({
       console.log(index);
       this.itemsDone.push(index);
       console.log(this.itemsDone);
+    },
+    // MILESTONE 3
+    //Predisporre un campo di input testuale e un pulsante "aggiungi": cliccando sul pulsante, il testo digitato viene letto e utilizzato per creare un nuovo todo, che quindi viene aggiunto alla lista dei todo esistenti.
+    addNewTask() {
+      this.toDoItems.push({ text: this.newTask });
     },
   },
 });

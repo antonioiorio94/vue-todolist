@@ -33,6 +33,12 @@
             ></i>
           </li>
         </ul>
+        <input
+          type="text"
+          placeholder="Inserisci un nuovo task"
+          v-model="newTask"
+        />
+        <button @click="addNewTask()">Aggiungi</button>
       </div>
     </div>
     <script src="script/main.js"></script>
