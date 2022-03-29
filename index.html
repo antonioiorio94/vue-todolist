@@ -26,6 +26,7 @@
           <li
             v-for="(item,index) in toDoItems"
             v-if="!itemsDone.includes(index)"
+            :class="item.done ? 'line-through' : ''"
           >
             {{item.text}}<i
               class="fa-solid fa-circle-xmark"
